@@ -4,7 +4,7 @@ import os.path as osp
 import warnings
 warnings.filterwarnings("ignore")
 
-global_b = '0.0' # Set bias degree here
+global_b = '0.9' # Set bias degree here
 data_dir = f'../data/SPMotif-{global_b}/raw/'
 os.makedirs(data_dir, exist_ok=True)
 
